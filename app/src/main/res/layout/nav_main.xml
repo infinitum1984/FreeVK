@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/VkFreeWhite"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/VkFreeWhite"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:text="Панель управления"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+
+            />
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"
+            android:layout_marginTop="10dp"
+            />
+        <LinearLayout
+            android:id="@+id/Proxy_Layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:orientation="vertical"
+
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:layout_marginTop="20dp"
+                android:layout_row="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Прокси"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <Switch
+                    android:id="@+id/switch_is_use_proxy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+
+                android:layout_marginLeft="30dp"
+                android:orientation="vertical" android:layout_marginStart="30dp">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/host"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp" />
+
+                    <EditText
+
+                        android:id="@+id/viewHost"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:hint="Стандарт"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginBottom="30dp">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Port:"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp" />
+                    />
+
+                    <EditText
+
+                        android:id="@+id/viewPort"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="Стандарт"
+                        android:inputType="number|numberSigned|numberDecimal"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginBottom="20dp"
+                    >
+
+                    <Button
+
+                        android:id="@+id/button_to_default"
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/to_default"
+                        android:textColor="@color/VkFreeWhite"
+                        android:textSize="12sp"
+                        android:background="@drawable/button_background"
+                        android:onClick="ToDefault"
+                        android:layout_alignParentLeft="true"
+
+                        />
+
+                    <Button
+                        android:id="@+id/button_apply"
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/apply"
+                        android:textColor="@color/VkFreeWhite"
+                        android:textSize="12sp"
+                        android:background="@drawable/button_background"
+                        android:onClick="ApplyChanges"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="30dp"
+
+                        />
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"
+            />
+
+        <CheckBox
+            android:id="@+id/isRefresh_page_swipe"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+
+            android:text="Обновлять страницу свайпом вниз."
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"
+            android:layout_marginTop="10dp"
+            />
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+
+            >
+
+            <ImageView
+
+                android:layout_alignParentLeft="true"
+                android:id="@+id/copy_link"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:onClick="CopyLink"
+                android:textColor="@color/VkFree"
+                android:src="@mipmap/copy_image"
+                android:background="@drawable/img_button_background"
+                android:layout_marginLeft="20dp"
+                />
+            <ImageView
+                android:layout_alignParentRight="true"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:src="@mipmap/ic_back"
+                android:background="@drawable/img_button_background"
+                android:layout_marginRight="20dp"
+                android:onClick="WebBack"
+                android:layout_marginLeft="20dp"
+                />
+
+
+            <ImageView
+                android:layout_alignParentRight="true"
+                android:id="@+id/refresh"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:src="@mipmap/refresh_image"
+                android:background="@drawable/img_button_background"
+                android:layout_marginRight="20dp"
+                android:onClick="RefreshPage"
+                />
+
+        </LinearLayout>
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"
+            android:layout_marginTop="10dp"
+            />
+
+    </LinearLayout>
+</ScrollView>

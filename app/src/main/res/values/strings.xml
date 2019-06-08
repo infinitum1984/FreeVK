@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Free VK (PRO)</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="setting">Настройки</string>
+    <string name="apply">Применить</string>
+    <string name="to_default">Восстановить</string>
+
+    <string name="loading_video">Loading video…</string>
+    <string name="host">Host:</string>
+
+    <string name="buy_pro">Отключить рекламу</string>
+    <string name="copy_link">копировать текущую ссылку</string>
+    <string name="refresh">обновить</string>
+
+
+</resources>

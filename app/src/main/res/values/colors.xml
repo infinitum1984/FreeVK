@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#365272</color>
+    <color name="colorPrimaryDark">#365272</color>
+    <color name="colorAccent">#f1293e56</color>
+    <color name="VkFree">#4b77a9</color>
+    <color name="White">#FFFFFFFF</color>
+    <color name="VkFreeWhite">#f5f5f5</color>
+    <color name="VkFreeBlack">#203248</color>
+</resources>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "784529834627",
+    "firebase_url": "https://free-vk-pro.firebaseio.com",
+    "project_id": "free-vk-pro",
+    "storage_bucket": "free-vk-pro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784529834627:android:0fcf75d36f5c33c0",
+        "android_client_info": {
+          "package_name": "com.corp.infinitum_micro_tech.free_vk_pro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "784529834627-18sle0r6q3ucu4tnib9a57omggflogpt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.corp.infinitum_micro_tech.free_vk_pro",
+            "certificate_hash": "eacaf0f56851ddff5c708ae02e8419cfacd6ceb1"
+          }
+        },
+        {
+          "client_id": "784529834627-d6apudb65k7de2fcqgt6ni69fjtirijl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDooxCRIn_9FdoQGe8yGXB9PI_ZKfwMARM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "784529834627-d6apudb65k7de2fcqgt6ni69fjtirijl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
