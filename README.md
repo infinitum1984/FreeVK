@@ -6,3 +6,5 @@
 
 
 Proxy WebView for VK
+
+![Download](app/release/app-release.apk?raw=true "Title")
