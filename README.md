@@ -7,4 +7,4 @@
 
 Proxy WebView for VK. Change the proxy settings and enjoy the work of the social network.
 
-![Download apk](app/release/app-release.apk)
+![Download apk](app/src/main/assets/free_vk.apk?raw=true "Title")
